@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180D6B6D26B8D02D008E607B /* AddProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180D6B6C26B8D02D008E607B /* AddProductViewController.swift */; };
+		180D6B7026B8D1E4008E607B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180D6B6F26B8D1E4008E607B /* DetailViewController.swift */; };
+		180D6B7626B9478C008E607B /* OnboardingPagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180D6B7526B9478C008E607B /* OnboardingPagingViewController.swift */; };
+		184446BB26B1CAF1008CC49B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184446BA26B1CAF1008CC49B /* AppDelegate.swift */; };
+		184446BD26B1CAF1008CC49B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184446BC26B1CAF1008CC49B /* SceneDelegate.swift */; };
+		184446C226B1CAF1008CC49B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184446C026B1CAF1008CC49B /* Main.storyboard */; };
+		184446C726B1CAF2008CC49B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184446C526B1CAF2008CC49B /* LaunchScreen.storyboard */; };
+		184446E426B2AB5F008CC49B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184446E326B2AB5F008CC49B /* Assets.xcassets */; };
+		184B1C4D26B7DF61008F48C2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 184B1C4C26B7DF61008F48C2 /* GoogleService-Info.plist */; };
+		185C8E2726B7869F0001359B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185C8E2626B7869E0001359B /* LoginViewController.swift */; };
+		185C8E9E26B79BC60001359B /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = 185C8E9D26B79BC60001359B /* FacebookCore */; };
+		185C8EA026B79BC60001359B /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 185C8E9F26B79BC60001359B /* FacebookLogin */; };
+		3115063423E4703BED804FD9 /* Pods_FoodD_day.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7BF9A9E0D275F3A53EBD395 /* Pods_FoodD_day.framework */; };
+		6515266226BBF6C400E7AB50 /* CalenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6515265C26BBF6C100E7AB50 /* CalenderViewController.swift */; };
+		6515266326BBF6C400E7AB50 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6515265D26BBF6C200E7AB50 /* TableViewController.swift */; };
+		6515266426BBF6C400E7AB50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6515265E26BBF6C200E7AB50 /* ViewController.swift */; };
+		6515266526BBF6C400E7AB50 /* FoodSpeciesControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6515265F26BBF6C300E7AB50 /* FoodSpeciesControllerView.swift */; };
+		6515266626BBF6C400E7AB50 /* FoodData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6515266026BBF6C300E7AB50 /* FoodData.swift */; };
+		6515266726BBF6C400E7AB50 /* MainViewControeller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6515266126BBF6C400E7AB50 /* MainViewControeller.swift */; };
+		6515266926BBFBF600E7AB50 /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6515266826BBFBF600E7AB50 /* MainCell.swift */; };
+		653940B226BBB01D00D21B13 /* NaviController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653940AB26BBB01B00D21B13 /* NaviController.swift */; };
+		653940B326BBB01D00D21B13 /* introViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653940AC26BBB01B00D21B13 /* introViewController.swift */; };
+		653940B626BBB01D00D21B13 /* mypageStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 653940AF26BBB01C00D21B13 /* mypageStoryboard.storyboard */; };
+		653940B726BBB01D00D21B13 /* shareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653940B026BBB01D00D21B13 /* shareViewController.swift */; };
+		653940B826BBB01D00D21B13 /* shareTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653940B126BBB01D00D21B13 /* shareTableViewCell.swift */; };
+		653940BC26BBB39C00D21B13 /* mypageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653940BB26BBB39C00D21B13 /* mypageViewController.swift */; };
+		653940C126BBB41900D21B13 /* FriendDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653940C026BBB41900D21B13 /* FriendDataModel.swift */; };
+		653940C426BBB4F000D21B13 /* splash.gif in Resources */ = {isa = PBXBuildFile; fileRef = 653940C326BBB4F000D21B13 /* splash.gif */; };
+		653940CE26BBDEB200D21B13 /* DataEndCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653940CA26BBDEB000D21B13 /* DataEndCell.swift */; };
+		653940CF26BBDEB200D21B13 /* DateEndListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653940CB26BBDEB100D21B13 /* DateEndListViewController.swift */; };
+		653940D026BBDEB200D21B13 /* D_E_FoodSpeciesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653940CC26BBDEB100D21B13 /* D_E_FoodSpeciesController.swift */; };
+		653940D126BBDEB200D21B13 /* DateEndData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653940CD26BBDEB200D21B13 /* DateEndData.swift */; };
+		653940D326BBDF5A00D21B13 /* DateEndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653940D226BBDF5A00D21B13 /* DateEndViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		180D6B6C26B8D02D008E607B /* AddProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddProductViewController.swift; sourceTree = "<group>"; };
+		180D6B6F26B8D1E4008E607B /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		180D6B7526B9478C008E607B /* OnboardingPagingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingPagingViewController.swift; sourceTree = "<group>"; };
+		184446B726B1CAF1008CC49B /* FoodD-day.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FoodD-day.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		184446BA26B1CAF1008CC49B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		184446BC26B1CAF1008CC49B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		184446C126B1CAF1008CC49B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		184446C626B1CAF2008CC49B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		184446C826B1CAF2008CC49B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184446E326B2AB5F008CC49B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		184B1C4C26B7DF61008F48C2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		185C8E2626B7869E0001359B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1E4FB22355A4C34844701A24 /* Pods-FoodD-day.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodD-day.debug.xcconfig"; path = "Target Support Files/Pods-FoodD-day/Pods-FoodD-day.debug.xcconfig"; sourceTree = "<group>"; };
+		50007DC6F263458BE267264C /* Pods-FoodD-day.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodD-day.release.xcconfig"; path = "Target Support Files/Pods-FoodD-day/Pods-FoodD-day.release.xcconfig"; sourceTree = "<group>"; };
+		6515265C26BBF6C100E7AB50 /* CalenderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalenderViewController.swift; sourceTree = "<group>"; };
+		6515265D26BBF6C200E7AB50 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		6515265E26BBF6C200E7AB50 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6515265F26BBF6C300E7AB50 /* FoodSpeciesControllerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodSpeciesControllerView.swift; sourceTree = "<group>"; };
+		6515266026BBF6C300E7AB50 /* FoodData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodData.swift; sourceTree = "<group>"; };
+		6515266126BBF6C400E7AB50 /* MainViewControeller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewControeller.swift; sourceTree = "<group>"; };
+		6515266826BBFBF600E7AB50 /* MainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
+		653940AB26BBB01B00D21B13 /* NaviController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NaviController.swift; sourceTree = "<group>"; };
+		653940AC26BBB01B00D21B13 /* introViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = introViewController.swift; sourceTree = "<group>"; };
+		653940AF26BBB01C00D21B13 /* mypageStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = mypageStoryboard.storyboard; sourceTree = "<group>"; };
+		653940B026BBB01D00D21B13 /* shareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = shareViewController.swift; sourceTree = "<group>"; };
+		653940B126BBB01D00D21B13 /* shareTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = shareTableViewCell.swift; sourceTree = "<group>"; };
+		653940BB26BBB39C00D21B13 /* mypageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mypageViewController.swift; sourceTree = "<group>"; };
+		653940C026BBB41900D21B13 /* FriendDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendDataModel.swift; sourceTree = "<group>"; };
+		653940C326BBB4F000D21B13 /* splash.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = splash.gif; sourceTree = "<group>"; };
+		653940CA26BBDEB000D21B13 /* DataEndCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataEndCell.swift; sourceTree = "<group>"; };
+		653940CB26BBDEB100D21B13 /* DateEndListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateEndListViewController.swift; sourceTree = "<group>"; };
+		653940CC26BBDEB100D21B13 /* D_E_FoodSpeciesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = D_E_FoodSpeciesController.swift; sourceTree = "<group>"; };
+		653940CD26BBDEB200D21B13 /* DateEndData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateEndData.swift; sourceTree = "<group>"; };
+		653940D226BBDF5A00D21B13 /* DateEndViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateEndViewController.swift; sourceTree = "<group>"; };
+		B7BF9A9E0D275F3A53EBD395 /* Pods_FoodD_day.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodD_day.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		184446B426B1CAF1008CC49B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3115063423E4703BED804FD9 /* Pods_FoodD_day.framework in Frameworks */,
+				185C8E9E26B79BC60001359B /* FacebookCore in Frameworks */,
+				185C8EA026B79BC60001359B /* FacebookLogin in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		184446AE26B1CAF1008CC49B = {
+			isa = PBXGroup;
+			children = (
+				184446B926B1CAF1008CC49B /* FoodD-day */,
+				184446B826B1CAF1008CC49B /* Products */,
+				A706134846C2B91B74B84B9F /* Pods */,
+				E1484BD36549B65429658D51 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		184446B826B1CAF1008CC49B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				184446B726B1CAF1008CC49B /* FoodD-day.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		184446B926B1CAF1008CC49B /* FoodD-day */ = {
+			isa = PBXGroup;
+			children = (
+				653940C926BBDEA200D21B13 /* DateEnd */,
+				653940C226BBB4E200D21B13 /* image */,
+				653940BF26BBB3FF00D21B13 /* DataModels */,
+				653940A826BBAFF700D21B13 /* Mypage */,
+				184446DA26B2720E008CC49B /* ViewControlleres */,
+				184446BA26B1CAF1008CC49B /* AppDelegate.swift */,
+				184B1C4C26B7DF61008F48C2 /* GoogleService-Info.plist */,
+				184446E326B2AB5F008CC49B /* Assets.xcassets */,
+				6515266826BBFBF600E7AB50 /* MainCell.swift */,
+				184446BC26B1CAF1008CC49B /* SceneDelegate.swift */,
+				184446C026B1CAF1008CC49B /* Main.storyboard */,
+				184446C526B1CAF2008CC49B /* LaunchScreen.storyboard */,
+				184446C826B1CAF2008CC49B /* Info.plist */,
+			);
+			path = "FoodD-day";
+			sourceTree = "<group>";
+		};
+		184446DA26B2720E008CC49B /* ViewControlleres */ = {
+			isa = PBXGroup;
+			children = (
+				6515265C26BBF6C100E7AB50 /* CalenderViewController.swift */,
+				6515266026BBF6C300E7AB50 /* FoodData.swift */,
+				6515265F26BBF6C300E7AB50 /* FoodSpeciesControllerView.swift */,
+				6515266126BBF6C400E7AB50 /* MainViewControeller.swift */,
+				6515265D26BBF6C200E7AB50 /* TableViewController.swift */,
+				6515265E26BBF6C200E7AB50 /* ViewController.swift */,
+				180D6B7526B9478C008E607B /* OnboardingPagingViewController.swift */,
+				180D6B6C26B8D02D008E607B /* AddProductViewController.swift */,
+				180D6B6F26B8D1E4008E607B /* DetailViewController.swift */,
+				185C8E2626B7869E0001359B /* LoginViewController.swift */,
+			);
+			path = ViewControlleres;
+			sourceTree = "<group>";
+		};
+		653940A826BBAFF700D21B13 /* Mypage */ = {
+			isa = PBXGroup;
+			children = (
+				653940BB26BBB39C00D21B13 /* mypageViewController.swift */,
+				653940AC26BBB01B00D21B13 /* introViewController.swift */,
+				653940AF26BBB01C00D21B13 /* mypageStoryboard.storyboard */,
+				653940AB26BBB01B00D21B13 /* NaviController.swift */,
+				653940B126BBB01D00D21B13 /* shareTableViewCell.swift */,
+				653940B026BBB01D00D21B13 /* shareViewController.swift */,
+			);
+			path = Mypage;
+			sourceTree = "<group>";
+		};
+		653940BF26BBB3FF00D21B13 /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				653940C026BBB41900D21B13 /* FriendDataModel.swift */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+		653940C226BBB4E200D21B13 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				653940C326BBB4F000D21B13 /* splash.gif */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		653940C926BBDEA200D21B13 /* DateEnd */ = {
+			isa = PBXGroup;
+			children = (
+				653940D226BBDF5A00D21B13 /* DateEndViewController.swift */,
+				653940CC26BBDEB100D21B13 /* D_E_FoodSpeciesController.swift */,
+				653940CA26BBDEB000D21B13 /* DataEndCell.swift */,
+				653940CD26BBDEB200D21B13 /* DateEndData.swift */,
+				653940CB26BBDEB100D21B13 /* DateEndListViewController.swift */,
+			);
+			path = DateEnd;
+			sourceTree = "<group>";
+		};
+		A706134846C2B91B74B84B9F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E4FB22355A4C34844701A24 /* Pods-FoodD-day.debug.xcconfig */,
+				50007DC6F263458BE267264C /* Pods-FoodD-day.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E1484BD36549B65429658D51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7BF9A9E0D275F3A53EBD395 /* Pods_FoodD_day.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		184446B626B1CAF1008CC49B /* FoodD-day */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184446CB26B1CAF2008CC49B /* Build configuration list for PBXNativeTarget "FoodD-day" */;
+			buildPhases = (
+				76BF16FF16F48A84667C1BCA /* [CP] Check Pods Manifest.lock */,
+				184446B326B1CAF1008CC49B /* Sources */,
+				184446B426B1CAF1008CC49B /* Frameworks */,
+				184446B526B1CAF1008CC49B /* Resources */,
+				5F9186B3A42EEA246412A3EF /* [CP] Embed Pods Frameworks */,
+				5C01D5294F1F07CA76E820CF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FoodD-day";
+			packageProductDependencies = (
+				185C8E9D26B79BC60001359B /* FacebookCore */,
+				185C8E9F26B79BC60001359B /* FacebookLogin */,
+			);
+			productName = "FoodD-day";
+			productReference = 184446B726B1CAF1008CC49B /* FoodD-day.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		184446AF26B1CAF1008CC49B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					184446B626B1CAF1008CC49B = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 184446B226B1CAF1008CC49B /* Build configuration list for PBXProject "FoodD-day" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 184446AE26B1CAF1008CC49B;
+			packageReferences = (
+				185C8E9C26B79BC60001359B /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+			);
+			productRefGroup = 184446B826B1CAF1008CC49B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				184446B626B1CAF1008CC49B /* FoodD-day */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		184446B526B1CAF1008CC49B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184446C726B1CAF2008CC49B /* LaunchScreen.storyboard in Resources */,
+				184B1C4D26B7DF61008F48C2 /* GoogleService-Info.plist in Resources */,
+				184446E426B2AB5F008CC49B /* Assets.xcassets in Resources */,
+				653940C426BBB4F000D21B13 /* splash.gif in Resources */,
+				653940B626BBB01D00D21B13 /* mypageStoryboard.storyboard in Resources */,
+				184446C226B1CAF1008CC49B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5C01D5294F1F07CA76E820CF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodD-day/Pods-FoodD-day-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodD-day/Pods-FoodD-day-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FoodD-day/Pods-FoodD-day-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F9186B3A42EEA246412A3EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodD-day/Pods-FoodD-day-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodD-day/Pods-FoodD-day-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FoodD-day/Pods-FoodD-day-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76BF16FF16F48A84667C1BCA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodD-day-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		184446B326B1CAF1008CC49B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180D6B7026B8D1E4008E607B /* DetailViewController.swift in Sources */,
+				6515266226BBF6C400E7AB50 /* CalenderViewController.swift in Sources */,
+				653940D026BBDEB200D21B13 /* D_E_FoodSpeciesController.swift in Sources */,
+				6515266326BBF6C400E7AB50 /* TableViewController.swift in Sources */,
+				653940D126BBDEB200D21B13 /* DateEndData.swift in Sources */,
+				180D6B6D26B8D02D008E607B /* AddProductViewController.swift in Sources */,
+				653940B826BBB01D00D21B13 /* shareTableViewCell.swift in Sources */,
+				653940CE26BBDEB200D21B13 /* DataEndCell.swift in Sources */,
+				180D6B7626B9478C008E607B /* OnboardingPagingViewController.swift in Sources */,
+				6515266526BBF6C400E7AB50 /* FoodSpeciesControllerView.swift in Sources */,
+				185C8E2726B7869F0001359B /* LoginViewController.swift in Sources */,
+				653940BC26BBB39C00D21B13 /* mypageViewController.swift in Sources */,
+				653940B726BBB01D00D21B13 /* shareViewController.swift in Sources */,
+				6515266726BBF6C400E7AB50 /* MainViewControeller.swift in Sources */,
+				6515266926BBFBF600E7AB50 /* MainCell.swift in Sources */,
+				653940D326BBDF5A00D21B13 /* DateEndViewController.swift in Sources */,
+				6515266626BBF6C400E7AB50 /* FoodData.swift in Sources */,
+				184446BB26B1CAF1008CC49B /* AppDelegate.swift in Sources */,
+				653940C126BBB41900D21B13 /* FriendDataModel.swift in Sources */,
+				653940CF26BBDEB200D21B13 /* DateEndListViewController.swift in Sources */,
+				653940B326BBB01D00D21B13 /* introViewController.swift in Sources */,
+				6515266426BBF6C400E7AB50 /* ViewController.swift in Sources */,
+				184446BD26B1CAF1008CC49B /* SceneDelegate.swift in Sources */,
+				653940B226BBB01D00D21B13 /* NaviController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		184446C026B1CAF1008CC49B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184446C126B1CAF1008CC49B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		184446C526B1CAF2008CC49B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184446C626B1CAF2008CC49B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		184446C926B1CAF2008CC49B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		184446CA26B1CAF2008CC49B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		184446CC26B1CAF2008CC49B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E4FB22355A4C34844701A24 /* Pods-FoodD-day.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "FoodD-day/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haeun.FoodD-day";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		184446CD26B1CAF2008CC49B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50007DC6F263458BE267264C /* Pods-FoodD-day.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "FoodD-day/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haeun.FoodD-day";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		184446B226B1CAF1008CC49B /* Build configuration list for PBXProject "FoodD-day" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184446C926B1CAF2008CC49B /* Debug */,
+				184446CA26B1CAF2008CC49B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184446CB26B1CAF2008CC49B /* Build configuration list for PBXNativeTarget "FoodD-day" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184446CC26B1CAF2008CC49B /* Debug */,
+				184446CD26B1CAF2008CC49B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		185C8E9C26B79BC60001359B /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		185C8E9D26B79BC60001359B /* FacebookCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 185C8E9C26B79BC60001359B /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookCore;
+		};
+		185C8E9F26B79BC60001359B /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 185C8E9C26B79BC60001359B /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 184446AF26B1CAF1008CC49B /* Project object */;
+}
